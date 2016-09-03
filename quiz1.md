@@ -16,8 +16,8 @@ ans:
 ```ruby 
 put str1+str2#相較會需要多花費暫存的記憶體
 ```
-```ruby3為字串內插的連接方式
-put #{str1}#{str2}
+```ruby
+put #{str1}#{str2}#為字串內插的連接方式
 ```
 3. 請解釋 array 和 hash 的不同處  
 and:array 和 hash內都能存放告種不同型態的資料,array內的每一筆資料在array中的位置是以0 1 2..的順序來表示
