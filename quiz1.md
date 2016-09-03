@@ -1,6 +1,5 @@
-1. 請說明 Fixnum (整數) 和 Float (浮點數) 之間的差異  
-  
-ans:Float能表示小數且數值範圍較大
+1. 請說明 Fixnum (整數) 和 Float (浮點數) 之間的差異   
+  ans:Float能表示小數且數值範圍較大
 
 2. 今天有兩個字串：
   ```ruby 
