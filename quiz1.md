@@ -1,5 +1,6 @@
 1. 請說明 Fixnum (整數) 和 Float (浮點數) 之間的差異  
-  ans:Float能表示小數且數值範圍較大
+  
+ans:Float能表示小數且數值範圍較大
 
 2. 今天有兩個字串：
   ```ruby 
@@ -19,16 +20,19 @@
   put #{str1}#{str2}#為字串內插的連接方式
   ```
 3. 請解釋 array 和 hash 的不同處  
-  ans:array 和 hash內都能存放告種不同型態的資料,array內的每一筆資料在array中的位置是以0 1 2..的順序來表示,但在hash中則是會對應到一個immutable (不能被改變的)的key
+ 
+ ans:array 和 hash內都能存放告種不同型態的資料,array內的每一筆資料在array中的位置是以0 1 2..的順序來表示,但在hash中則是會對應到一個immutable (不能被改變的)的key
 
      	
 4. 請用一行程式碼從 [1, "a string", 3.14, [1,2,3,4]] 這個陣列找出所有非字串的值  
-  ans:
+ 
+ ans:
   ```ruby
    [1, "a string", 3.14, [1,2,3,4]].select{|x| x.class!="".class}
   ```
 5. 請用一行程式碼把一個內容為整數 1 到 100 的陣列裡所有的值加上 2  
-  ans:
+ 
+ ans:
   ```ruby
   (1..10).to_a.map!{|x| x+2}
   ```
@@ -47,6 +51,7 @@
   uniq會列出陣列中不重複的部份,加 ! 的方法代表呼叫該方法的物件最後會被改變
 
 7. 請列出兩種產出亂數的方法  
+  
   ans:
   ```ruby
   arr.sample
@@ -87,7 +92,6 @@
   ```
 11. 請列出兩種不同的 hash 寫法  
   ans: 
-
   ```ruby
   person = { 
              :name => "Bob", 
@@ -95,12 +99,12 @@
              :occupation => "Engineer"
            }
   # ‘=>' 符號叫做 hashrocket，是 hash 用來 assign 值所使用的符號
-```
+  ```
 
-```ruby
-  person = { 
-             name: "Bob", 
-             age: 30,
-             occupation: "Engineer"
-           }
+  ```ruby
+    person = { 
+               name: "Bob", 
+               age: 30,
+               occupation: "Engineer"
+             }
   ```
