@@ -114,7 +114,7 @@ Foo.new.bar # => NoMethodError: undefined method ‘bar’ for #<Foo:0x1e820>
    你只能為一個 class 建立子類別，但卻可以 mix 很多 module  
 
    2. 如果今天你是需要 "是某個..." 的關係，就用 inheritance，如過需要 "擁有某項行為" 就用 module  
-      繼承相同的class後,在利用include Module創造有差異的行為  
+      繼承相同的class後,再利用include Module創造有差異的行為  
    Ex. 蝙蝠是屬於一種哺乳動物，就讓 Bat 繼承 Mammal  
        蝙蝠有飛行的能力，但並非所有哺乳動物都會飛，所以讓 Bat include 擁有 fly 這個 method 的 module  
      
